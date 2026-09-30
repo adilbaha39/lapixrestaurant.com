@@ -1,0 +1,722 @@
+{
+ "categories": [
+  {
+   "id": "couscous",
+   "img": "mino1.jpg",
+   "name": {
+    "fr": "Couscous",
+    "en": "Couscous",
+    "ar": "كسكس"
+   },
+   "items": [
+    {
+     "n": {
+      "fr": "Couscous marocain",
+      "en": "Moroccan couscous",
+      "ar": "كسكس مغربي"
+     },
+     "p": 75
+    },
+    {
+     "n": {
+      "fr": "Couscous mixte",
+      "en": "Mixed couscous",
+      "ar": "كسكس مشكل"
+     },
+     "p": 80
+    },
+    {
+     "n": {
+      "fr": "Couscous aux légumes",
+      "en": "Vegetable couscous",
+      "ar": "كسكس بالخضر"
+     },
+     "p": 60
+    }
+   ]
+  },
+  {
+   "id": "tagines",
+   "img": "mino2.jpg",
+   "name": {
+    "fr": "Tajines",
+    "en": "Tagines",
+    "ar": "طواجن"
+   },
+   "items": [
+    {
+     "n": {
+      "fr": "Tajine de calamars",
+      "en": "Calamari tagine",
+      "ar": "طاجين الكالامار"
+     },
+     "p": 75
+    },
+    {
+     "n": {
+      "fr": "Tajine de crevettes",
+      "en": "Shrimp tagine",
+      "ar": "طاجين الجمبري"
+     },
+     "p": 75
+    },
+    {
+     "n": {
+      "fr": "Tajine de poulet",
+      "en": "Chicken tagine",
+      "ar": "طاجين الدجاج"
+     },
+     "p": 70
+    },
+    {
+     "n": {
+      "fr": "Tajine de kefta",
+      "en": "Kefta tagine",
+      "ar": "طاجين الكفتة"
+     },
+     "p": 70
+    },
+    {
+     "n": {
+      "fr": "Tajine de poissons mixtes (calamars, crevettes, daurade)",
+      "en": "Mixed fish tagine (calamari, shrimp, dorada)",
+      "ar": "طاجين السمك المشكل (كالامار، جمبري، دوراد)"
+     },
+     "p": 100
+    },
+    {
+     "n": {
+      "fr": "Tajine de légumes",
+      "en": "Vegetable tagine",
+      "ar": "طاجين الخضر"
+     },
+     "p": 50
+    },
+    {
+     "n": {
+      "fr": "Tajine de poisson",
+      "en": "Fish tagine",
+      "ar": "طاجين السمك"
+     },
+     "p": 70
+    }
+   ]
+  },
+  {
+   "id": "grills",
+   "img": "mino3.jpg",
+   "name": {
+    "fr": "Grillades",
+    "en": "Grills",
+    "ar": "مشاوي"
+   },
+   "items": [
+    {
+     "n": {
+      "fr": "Brochettes de kefta + frites",
+      "en": "Kefta skewers + fries",
+      "ar": "بروشيت الكفتة + بطاطس مقلية"
+     },
+     "p": 70
+    },
+    {
+     "n": {
+      "fr": "Brochettes de poulet + frites",
+      "en": "Chicken skewers + fries",
+      "ar": "بروشيت الدجاج + بطاطس مقلية"
+     },
+     "p": 70
+    },
+    {
+     "n": {
+      "fr": "Poisson grillé + salade",
+      "en": "Grilled fish + salad",
+      "ar": "سمك مشوي + سلطة"
+     },
+     "p": 70
+    },
+    {
+     "n": {
+      "fr": "Poulet grillé + frites",
+      "en": "Grilled chicken + fries",
+      "ar": "دجاج مشوي + بطاطس مقلية"
+     },
+     "p": 70
+    },
+    {
+     "n": {
+      "fr": "Kefta grillée + frites",
+      "en": "Grilled kefta + fries",
+      "ar": "كفتة مشوية + بطاطس مقلية"
+     },
+     "p": 70
+    },
+    {
+     "n": {
+      "fr": "Poissons mixtes grillés + salade",
+      "en": "Mixed grilled fish + salad",
+      "ar": "سمك مشكل مشوي + سلطة"
+     },
+     "p": 130
+    },
+    {
+     "n": {
+      "fr": "Calamars et crevettes grillés + salade",
+      "en": "Grilled calamari & shrimp + salad",
+      "ar": "كالامار وجمبري مشوي + سلطة"
+     },
+     "p": 120
+    },
+    {
+     "n": {
+      "fr": "Calamars grillés + salade",
+      "en": "Grilled calamari + salad",
+      "ar": "كالامار مشوي + سلطة"
+     },
+     "p": 100
+    },
+    {
+     "n": {
+      "fr": "Crevettes grillées + salade",
+      "en": "Grilled shrimp + salad",
+      "ar": "جمبري مشوي + سلطة"
+     },
+     "p": 90
+    },
+    {
+     "n": {
+      "fr": "Légumes grillés + frites",
+      "en": "Grilled vegetables + fries",
+      "ar": "خضر مشوية + بطاطس مقلية"
+     },
+     "p": 50
+    }
+   ]
+  },
+  {
+   "id": "boissons",
+   "img": "mino4.jpg",
+   "name": {
+    "fr": "Boissons",
+    "en": "Drinks",
+    "ar": "مشروبات"
+   },
+   "items": [
+    {
+     "n": {
+      "fr": "Jus d'orange",
+      "en": "Orange juice",
+      "ar": "عصير البرتقال"
+     },
+     "p": 20
+    },
+    {
+     "n": {
+      "fr": "Jus de banane",
+      "en": "Banana juice",
+      "ar": "عصير الموز"
+     },
+     "p": 25
+    },
+    {
+     "n": {
+      "fr": "Jus de pomme",
+      "en": "Apple juice",
+      "ar": "عصير التفاح"
+     },
+     "p": 25
+    },
+    {
+     "n": {
+      "fr": "Jus d'avocat",
+      "en": "Avocado juice",
+      "ar": "عصير الأفوكادو"
+     },
+     "p": 25
+    },
+    {
+     "n": {
+      "fr": "Jus de carotte",
+      "en": "Carrot juice",
+      "ar": "عصير الجزر"
+     },
+     "p": 25
+    },
+    {
+     "n": {
+      "fr": "Jus de mangue",
+      "en": "Mango juice",
+      "ar": "عصير المانجو"
+     },
+     "p": 30
+    },
+    {
+     "n": {
+      "fr": "Jus de citron",
+      "en": "Lemon juice",
+      "ar": "عصير الليمون"
+     },
+     "p": 30
+    },
+    {
+     "n": {
+      "fr": "Jus mixte",
+      "en": "Mixed juice",
+      "ar": "عصير مشكل"
+     },
+     "p": 30
+    },
+    {
+     "n": {
+      "fr": "Jus de fraise",
+      "en": "Strawberry juice",
+      "ar": "عصير الفراولة"
+     },
+     "p": 30
+    },
+    {
+     "n": {
+      "fr": "Soda (Coca, Fanta, Hawaï, Chwips, Pom's)",
+      "en": "Soda (Coca, Fanta, Hawaï, Chwips, Pom's)",
+      "ar": "مشروب غازي (كوكا، فانتا، هاواي، شويبس، بوم)"
+     },
+     "p": 10
+    },
+    {
+     "n": {
+      "fr": "Orangina",
+      "en": "Orangina",
+      "ar": "أورانجينا"
+     },
+     "p": 15
+    },
+    {
+     "n": {
+      "fr": "Eau minérale",
+      "en": "Water",
+      "ar": "ماء"
+     },
+     "p": 10
+    },
+    {
+     "n": {
+      "fr": "Eau gazeuse (petite)",
+      "en": "Sparkling water (small)",
+      "ar": "ماء غازي (صغير)"
+     },
+     "p": 10
+    },
+    {
+     "n": {
+      "fr": "Eau gazeuse (grande)",
+      "en": "Sparkling water (large)",
+      "ar": "ماء غازي (كبير)"
+     },
+     "p": 20
+    },
+    {
+     "n": {
+      "fr": "Eau chaude à la menthe",
+      "en": "Hot water with mint",
+      "ar": "ماء ساخن بالنعناع"
+     },
+     "p": 10
+    },
+    {
+     "n": {
+      "fr": "Cappuccino",
+      "en": "Cappuccino",
+      "ar": "كابتشينو"
+     },
+     "p": 20
+    },
+    {
+     "n": {
+      "fr": "Expresso",
+      "en": "Espresso",
+      "ar": "إسبريسو"
+     },
+     "p": 15
+    },
+    {
+     "n": {
+      "fr": "Americano",
+      "en": "Americano",
+      "ar": "أمريكانو"
+     },
+     "p": 15
+    },
+    {
+     "n": {
+      "fr": "Chocolat au lait",
+      "en": "Chocolate milk",
+      "ar": "شوكولاطة بالحليب"
+     },
+     "p": 15
+    },
+    {
+     "n": {
+      "fr": "Thé à la menthe",
+      "en": "Mint tea",
+      "ar": "أتاي بالنعناع"
+     },
+     "p": 10
+    },
+    {
+     "n": {
+      "fr": "Lait chaud",
+      "en": "Hot milk",
+      "ar": "حليب ساخن"
+     },
+     "p": 15
+    },
+    {
+     "n": {
+      "fr": "Café au lait",
+      "en": "Coffee with milk",
+      "ar": "قهوة بالحليب"
+     },
+     "p": 15
+    },
+    {
+     "n": {
+      "fr": "Verveine, eau chaude (Lipton)",
+      "en": "Verbena with hot water (Lipton)",
+      "ar": "لويزة بالماء الساخن (ليبتون)"
+     },
+     "p": 15
+    }
+   ]
+  },
+  {
+   "id": "msemen",
+   "img": "mino5.jpg",
+   "name": {
+    "fr": "Msemen marocain",
+    "en": "Moroccan msemen",
+    "ar": "المسمن المغربي"
+   },
+   "items": [
+    {
+     "n": {
+      "fr": "Nature",
+      "en": "Plain",
+      "ar": "سادة"
+     },
+     "p": 5
+    },
+    {
+     "n": {
+      "fr": "Amlou",
+      "en": "Amlou",
+      "ar": "أملو"
+     },
+     "p": 10
+    },
+    {
+     "n": {
+      "fr": "Amlou à la banane",
+      "en": "Banana amlou",
+      "ar": "أملو بالموز"
+     },
+     "p": 20
+    },
+    {
+     "n": {
+      "fr": "Chocolat",
+      "en": "Chocolate",
+      "ar": "شوكولاطة"
+     },
+     "p": 10
+    },
+    {
+     "n": {
+      "fr": "Chocolat et banane",
+      "en": "Chocolate & banana",
+      "ar": "شوكولاطة وموز"
+     },
+     "p": 20
+    },
+    {
+     "n": {
+      "fr": "Nutella",
+      "en": "Nutella",
+      "ar": "نوتيلا"
+     },
+     "p": 20
+    },
+    {
+     "n": {
+      "fr": "Fromage",
+      "en": "Cheese",
+      "ar": "جبن"
+     },
+     "p": 10
+    },
+    {
+     "n": {
+      "fr": "Miel",
+      "en": "Honey",
+      "ar": "عسل"
+     },
+     "p": 10
+    },
+    {
+     "n": {
+      "fr": "Avocat",
+      "en": "Avocado",
+      "ar": "أفوكادو"
+     },
+     "p": 25
+    },
+    {
+     "n": {
+      "fr": "Végétarien",
+      "en": "Vegetarian",
+      "ar": "نباتي"
+     },
+     "p": 20
+    },
+    {
+     "n": {
+      "fr": "Fromage et œuf",
+      "en": "Cheese & egg",
+      "ar": "جبن وبيض"
+     },
+     "p": 20
+    },
+    {
+     "n": {
+      "fr": "Avocat et œuf",
+      "en": "Avocado & egg",
+      "ar": "أفوكادو وبيض"
+     },
+     "p": 30
+    },
+    {
+     "n": {
+      "fr": "Œuf",
+      "en": "Egg",
+      "ar": "بيض"
+     },
+     "p": 20
+    },
+    {
+     "n": {
+      "fr": "Mixte (œuf, avocat, fromage)",
+      "en": "Mixed (egg, avocado, cheese)",
+      "ar": "مشكل (بيض، أفوكادو، جبن)"
+     },
+     "p": 35
+    }
+   ]
+  },
+  {
+   "id": "salades",
+   "img": "mino6.jpg",
+   "name": {
+    "fr": "Salades",
+    "en": "Salads",
+    "ar": "سلطات"
+   },
+   "items": [
+    {
+     "n": {
+      "fr": "Salade marocaine",
+      "en": "Moroccan salad",
+      "ar": "سلطة مغربية"
+     },
+     "p": 15
+    },
+    {
+     "n": {
+      "fr": "Salade de thon",
+      "en": "Tuna salad",
+      "ar": "سلطة التونة"
+     },
+     "p": 30
+    },
+    {
+     "n": {
+      "fr": "Salade d'avocat",
+      "en": "Avocado salad",
+      "ar": "سلطة الأفوكادو"
+     },
+     "p": 30
+    }
+   ]
+  },
+  {
+   "id": "pates",
+   "img": "mino7.jpg",
+   "name": {
+    "fr": "Pâtes",
+    "en": "Pasta",
+    "ar": "معكرونة"
+   },
+   "items": [
+    {
+     "n": {
+      "fr": "Pâtes bolognaise",
+      "en": "Bolognese pasta",
+      "ar": "معكرونة بولونيز"
+     },
+     "p": 70
+    },
+    {
+     "n": {
+      "fr": "Pâtes au fromage",
+      "en": "Cheese pasta",
+      "ar": "معكرونة بالجبن"
+     },
+     "p": 40
+    },
+    {
+     "n": {
+      "fr": "Riz aux légumes",
+      "en": "Vegetable rice",
+      "ar": "أرز بالخضر"
+     },
+     "p": 50
+    },
+    {
+     "n": {
+      "fr": "Riz nature",
+      "en": "Plain rice",
+      "ar": "أرز سادة"
+     },
+     "p": 30
+    }
+   ]
+  },
+  {
+   "id": "soupes",
+   "img": "mino8.jpg",
+   "name": {
+    "fr": "Soupes",
+    "en": "Soups",
+    "ar": "شوربات"
+   },
+   "items": [
+    {
+     "n": {
+      "fr": "Soupe marocaine",
+      "en": "Moroccan soup",
+      "ar": "شوربة مغربية"
+     },
+     "p": 15
+    },
+    {
+     "n": {
+      "fr": "Soupe de légumes",
+      "en": "Vegetable soup",
+      "ar": "شوربة الخضر"
+     },
+     "p": 20
+    }
+   ]
+  },
+  {
+   "id": "sandwichs",
+   "img": "mino9.jpg",
+   "name": {
+    "fr": "Sandwichs",
+    "en": "Sandwiches",
+    "ar": "ساندويتشات"
+   },
+   "items": [
+    {
+     "n": {
+      "fr": "Sandwich au poulet",
+      "en": "Chicken sandwich",
+      "ar": "ساندويتش الدجاج"
+     },
+     "p": 35
+    },
+    {
+     "n": {
+      "fr": "Sandwich à la kefta",
+      "en": "Kefta sandwich",
+      "ar": "ساندويتش الكفتة"
+     },
+     "p": 40
+    },
+    {
+     "n": {
+      "fr": "Sandwich aux légumes",
+      "en": "Vegetable sandwich",
+      "ar": "ساندويتش الخضر"
+     },
+     "p": 30
+    }
+   ]
+  },
+  {
+   "id": "omelettes",
+   "img": "mino10.jpg",
+   "name": {
+    "fr": "Omelettes",
+    "en": "Omelettes",
+    "ar": "أومليت"
+   },
+   "items": [
+    {
+     "n": {
+      "fr": "Omelette nature",
+      "en": "Plain omelette",
+      "ar": "أومليت سادة"
+     },
+     "p": 20
+    },
+    {
+     "n": {
+      "fr": "Omelette au fromage",
+      "en": "Cheese omelette",
+      "ar": "أومليت بالجبن"
+     },
+     "p": 30
+    },
+    {
+     "n": {
+      "fr": "Omelette berbère",
+      "en": "Berber omelette",
+      "ar": "أومليت أمازيغية"
+     },
+     "p": 30
+    },
+    {
+     "n": {
+      "fr": "Omelette aux crevettes",
+      "en": "Shrimp omelette",
+      "ar": "أومليت بالجمبري"
+     },
+     "p": 60
+    },
+    {
+     "n": {
+      "fr": "Omelette à l'avocat",
+      "en": "Avocado omelette",
+      "ar": "أومليت بالأفوكادو"
+     },
+     "p": 35
+    },
+    {
+     "n": {
+      "fr": "Omelette végétarienne",
+      "en": "Vegetarian omelette",
+      "ar": "أومليت نباتية"
+     },
+     "p": 40
+    },
+    {
+     "n": {
+      "fr": "Omelette avocat et fromage",
+      "en": "Avocado & cheese omelette",
+      "ar": "أومليت بالأفوكادو والجبن"
+     },
+     "p": 40
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "hero": {
+  "index": "hiro1.jpg",
+  "carte": "hiro2.jpg",
+  "experience": "hiro3.jpg",
+  "contact": "hiro4.jpg"
+ },
+ "ocean_banner": "sora8.jpg",
+ "slots": {
+  "index": {
+   "Tajine+aux+legumes": "mino2.jpg|Tagines",
+   "Poisson+grille": "mino3.jpg|Grillades",
+   "Couscous": "mino1.jpg|Couscous",
+   "Chef+en+cuisine": "sora1.jpg",
+   "Poissons+frais": "sora2.jpg",
+   "Terrasse+ocean": "sora3.jpg",
+   "Tajine+traditionnel": "sora4.jpg",
+   "Cote+Imsouane": "sora5.jpg",
+   "Ambiance+terrasse": "sora6.jpg",
+   "Fruits+de+mer": "sora7.jpg",
+   "Vue+ocean": "sora8.jpg"
+  },
+  "experience": {
+   "Terrasse+face+ocean": "sora1.jpg",
+   "Plante": "sora3.jpg",
+   "LA+PAIX+%28facade%29": "sora2.jpg",
+   "Facade+LA+PAIX": "sora4.jpg",
+   "Tables+ocean": "sora5.jpg",
+   "Tajine": "mino2.jpg|Tagines",
+   "Groupe+a+table": "sora6.jpg",
+   "Tajine+aux+legumes": "mino5.jpg|Msemen",
+   "Tagines": "mino2.jpg|Tagines",
+   "Grillades": "mino3.jpg|Grillades",
+   "Couscous": "mino1.jpg|Couscous",
+   "Groupe+amis": "sora7.jpg",
+   "Ambiance+terrasse": "sora8.jpg",
+   "Fruits+de+mer": "sora9.jpg",
+   "Entree+LA+PAIX": "sora10.jpg",
+   "Table+ocean": "sora3.jpg"
+  },
+  "contact": {
+   "Entree+LA+PAIX": "sora2.jpg",
+   "Tajine+aux+legumes": "mino2.jpg|Tagines",
+   "Terrasse": "sora4.jpg",
+   "Poisson+grille": "mino3.jpg|Grillades",
+   "Amis+a+table": "sora5.jpg",
+   "Ocean": "sora6.jpg",
+   "Tajine": "mino1.jpg|Couscous"
+  }
+ }
+}
