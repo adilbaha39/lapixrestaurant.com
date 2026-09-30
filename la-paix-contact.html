@@ -42,7 +42,7 @@
       "url": "https://lapixrestaurant.com/",
       "description": "Restaurant La Paix à Imsouane : cuisine marocaine authentique face à l'océan. Tajines, poissons grillés, couscous. Réservez votre table.",
       "image": "https://lapixrestaurant.com/images/hiro1.jpg",
-      "telephone": "+212665330669",
+      "telephone": "+212636745693",
       "servesCuisine": [
         "Moroccan",
         "Seafood"
@@ -180,14 +180,9 @@
   .meet-split h2{font-size:28px; color:var(--teal-dark); margin-bottom:14px;}
   .meet-split p.desc{font-size:13.5px; color:var(--ink-soft); line-height:1.7; margin-bottom:26px; max-width:400px;}
 
-  .map-box{position:relative; height:280px; border-radius:6px; overflow:hidden; border:1px solid rgba(23,63,66,.15);
-    background:linear-gradient(135deg, #cfe3ea 0%, #cfe3ea 42%, #efe9dc 42%, #efe9dc 100%);}
-  .map-box .road{position:absolute; background:#fff;}
-  .map-pin-label{position:absolute; top:44%; left:52%; display:flex; align-items:center; gap:6px; z-index:3;}
-  .map-pin-label svg{width:22px; height:22px; color:#d24b3a; flex-shrink:0;}
-  .map-pin-label span{font-size:12px; font-weight:700; color:#c0392b; background:#fff; padding:2px 8px; border-radius:3px; white-space:nowrap;}
-  .map-city-label{position:absolute; top:58%; left:56%; font-size:12px; font-weight:600; color:var(--ink);}
-  .map-cta{position:absolute; left:16px; bottom:16px;}
+  .map-box{position:relative; height:280px; border-radius:6px; overflow:hidden; border:1px solid rgba(23,63,66,.15); background:var(--cream-2);}
+  .map-box iframe{position:absolute; inset:0; width:100%; height:100%; border:0;}
+  .map-cta{position:absolute; left:16px; bottom:16px; z-index:2;}
   html[dir="rtl"] .map-cta{left:auto; right:16px;}
   .map-cta .btn{padding:10px 16px; font-size:11px;}
 
@@ -295,10 +290,10 @@
   .hero > .wrap{position:relative; z-index:2;}
   .map-thumb svg{display:block; width:100%; height:auto;}
   .map-thumb a[aria-hidden]{display:block; opacity:1;}
-  .find-map{background:linear-gradient(135deg,#cfe3ea 0%,#cfe3ea 42%,#efe9dc 42%,#efe9dc 100%);}
-  .find-map .road{position:absolute; background:#fff;}
-  .find-map .r1{width:6px; height:100%; left:60%; top:0; transform:skewX(-8deg);}
-  .find-map .r2{width:100%; height:5px; top:70%; left:0; transform:rotate(-3deg);}
+  header{position:fixed !important; top:0; left:0; width:100%; z-index:90;}
+  body{padding-top:96px;}
+  @media(max-width:480px){body{padding-top:84px;}}
+
   .hero{position:relative; min-height:320px; display:flex; align-items:center; overflow:hidden;}
   .hero::before{background:linear-gradient(to right, rgba(9,30,33,.82) 15%, rgba(9,30,33,.4) 45%, rgba(9,30,33,.05) 75%);}
   html[dir="rtl"] .hero::before{background:linear-gradient(to left, rgba(9,30,33,.82) 15%, rgba(9,30,33,.4) 45%, rgba(9,30,33,.05) 75%);}
@@ -369,7 +364,7 @@
     </div>
     <div class="info-item">
       <div class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.2 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 3a2 2 0 0 1-.5 2.1L8 10.3a16 16 0 0 0 6 6l1.5-1.4a2 2 0 0 1 2.1-.5c1 .3 2 .5 3 .7a2 2 0 0 1 1.7 2z"/></svg></div>
-      <div><h2>Nous appeler</h2><p><a href="tel:+212665330669" dir="ltr" data-track="phone_click">+212 6 65 33 06 69</a></p></div>
+      <div><h2>Nous appeler</h2><p><a href="tel:+212636745693" dir="ltr" data-track="phone_click">+212 6 36 74 56 93</a></p></div>
     </div>
     <div class="info-item">
       <div class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
@@ -385,13 +380,7 @@
       <h2>Venez nous rencontrer</h2>
       <p class="desc">Situé au cœur d'Imsouane, notre restaurant vous accueille dans un cadre authentique avec une vue imprenable sur l'océan.</p>
       <div class="map-box">
-        <div class="road" style="width:6px; height:100%; left:60%; top:0; transform:skewX(-8deg);"></div>
-        <div class="road" style="width:100%; height:5px; top:70%; left:0; transform:rotate(-3deg);"></div>
-        <div class="map-pin-label">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 110-6 3 3 0 010 6z"/></svg>
-          <span>La Paix Restaurant</span>
-        </div>
-        <div class="map-city-label">Imsouane</div>
+        <iframe src="https://www.google.com/maps?q=Restaurant+La+Paix,+Imsouane+80043&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Restaurant La Paix — Imsouane"></iframe>
         <div class="map-cta">
           <a href="https://maps.app.goo.gl/Wiap6Zg1k6W64BJZ8" data-track="map_click" target="_blank" rel="noopener" class="btn btn-solid" style="background:var(--teal-dark);">
             <span>Voir sur Google Maps</span>
@@ -451,8 +440,8 @@
       <div class="wa-icon"><svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.8 14.2c-.3.8-1.5 1.5-2.4 1.6-.6.1-1.4.2-4.1-.9-3.4-1.4-5.6-4.9-5.8-5.1-.2-.2-1.4-1.9-1.4-3.5 0-1.6.9-2.4 1.2-2.8.3-.3.7-.4 1-.4h.7c.2 0 .5 0 .8.6.3.7 1 2.3 1.1 2.5.1.2.2.4 0 .7-.1.2-.2.4-.4.6-.2.2-.4.5-.6.6-.2.2-.4.4-.2.8.2.4.9 1.5 2 2.4 1.4 1.2 2.5 1.6 2.9 1.8.4.2.6.1.8-.1.2-.2.9-1 1.2-1.4.3-.4.5-.3.8-.2.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.2.1.9-.2 1.7z"/></svg></div>
       <h3>Besoin d'une réponse rapide ?</h3>
       <p>Appelez-nous directement.</p>
-      <div class="phone"><a href="tel:+212665330669" dir="ltr" data-track="phone_click">+212 6 65 33 06 69</a></div>
-      <a href="tel:+212665330669" class="btn btn-outline-white" data-track="phone_click">
+      <div class="phone"><a href="tel:+212636745693" dir="ltr" data-track="phone_click">+212 6 36 74 56 93</a></div>
+      <a href="tel:+212636745693" class="btn btn-outline-white" data-track="phone_click">
         <span>Appeler</span>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
@@ -511,7 +500,7 @@
       </div>
       <div class="footer-col">
         <p class="footer-title">Contact</p>
-        <div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.2 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 3a2 2 0 0 1-.5 2.1L8 10.3a16 16 0 0 0 6 6l1.5-1.4a2 2 0 0 1 2.1-.5c1 .3 2 .5 3 .7a2 2 0 0 1 1.7 2z"/></svg><span><a href="tel:+212665330669" dir="ltr" data-track="phone_click">+212 6 65 33 06 69</a></span></div>
+        <div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.2 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 3a2 2 0 0 1-.5 2.1L8 10.3a16 16 0 0 0 6 6l1.5-1.4a2 2 0 0 1 2.1-.5c1 .3 2 .5 3 .7a2 2 0 0 1 1.7 2z"/></svg><span><a href="tel:+212636745693" dir="ltr" data-track="phone_click">+212 6 36 74 56 93</a></span></div>
         <div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Imsouane, Maroc</span></div>
         <div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span>Ouvert jusqu'à 23:00</span></div>
         <div class="socials">
@@ -569,7 +558,7 @@
   var now=new Date();
   document.getElementById('resDate').min=now.getFullYear()+'-'+pad(now.getMonth()+1)+'-'+pad(now.getDate());
   var CFG={"miss": "Merci de choisir une date et une heure.", "past": "Vous ne pouvez pas choisir une date ou une heure déjà passée.", "wa": "Bonjour La Paix, je souhaite réserver une table pour le {date} à {time} ({guests})."};
-  var RESTAURANT_WHATSAPP='212665330669';
+  var RESTAURANT_WHATSAPP='212636745693';
   document.getElementById('reserveForm').addEventListener('submit',function(e){
     e.preventDefault();
     var date=document.getElementById('resDate').value;
