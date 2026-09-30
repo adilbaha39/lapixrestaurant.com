@@ -21,7 +21,7 @@
 <meta property="og:description" content="مطعم لا بي إمسوان، من أشهى وجهات المطبخ المغربي الأصيل على ضفاف المحيط: طواجن، أسماك مشوية، كسكس. احجزوا طاولتكم الآن.">
 <meta property="og:image" content="https://lapixrestaurant.com/images/hiro1.jpg">
 <meta property="og:image:alt" content="مطعم لا بي في إمسوان، تراس مطل على المحيط">
-<meta property="og:locale" content="ar_AR">
+<meta property="og:locale" content="ar_MA">
 <meta property="og:locale:alternate" content="fr_FR">
 <meta property="og:locale:alternate" content="en_US">
 <meta property="og:site_name" content="La Paix Restaurant">
@@ -93,7 +93,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Cairo:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --teal-dark:#173f42;
@@ -150,7 +150,7 @@
 
   /* ---------- HEADER ---------- */
   header{
-    position:absolute; top:0; left:0; width:100%; z-index:50;
+    position:fixed; top:0; left:0; width:100%; z-index:90;
     padding:26px 0;
   }
   header .wrap{display:flex; align-items:center; justify-content:space-between;}
@@ -185,11 +185,18 @@
   }
   html[dir="rtl"] .lang-menu{right:auto; left:0;}
   .lang-switch.open .lang-menu{display:block;}
-  .lang-option{padding:10px 16px; font-size:13px; color:var(--ink); cursor:pointer; display:flex; align-items:center; justify-content:space-between;}
+  .lang-option{padding:10px 16px; font-size:13px; color:var(--ink); cursor:pointer; display:block;}
   .lang-option:hover{background:var(--cream);}
   .lang-option.active{color:var(--teal); font-weight:600;}
 
   /* ---------- HERO ---------- */
+  .hero{position:relative; min-height:640px; display:flex; align-items:flex-end; padding-top:150px; overflow:hidden;}
+  .hero::before{
+    content:''; position:absolute; inset:0; z-index:1;
+    background:linear-gradient(to bottom, rgba(10,25,28,.35), rgba(10,25,28,.55) 60%, rgba(10,25,28,.15));
+  }
+  .hero-bg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;}
+  .hero > .wrap{position:relative; z-index:2;}
   .hero-inner{padding-bottom:60px; width:100%;}
   .hero-content{max-width:620px; color:var(--white);}
   .hero-eyebrow{font-size:12px; font-weight:600; letter-spacing:3px; text-transform:uppercase; margin-bottom:14px; opacity:.9;}
@@ -253,12 +260,19 @@
     background:var(--cream-2); padding:70px 0; position:relative; overflow:hidden;
   }
   .steps-photo{
-    position:absolute; left:0; top:0; bottom:0; width:230px;
+    position:absolute;
+    inset-block:0;
+    inset-inline-start:0;
+    width:230px;
   }
-  html[dir="rtl"] .steps-photo{left:auto; right:0;}
   .steps-photo img{width:100%; height:100%; object-fit:cover;}
-  .steps-inner{max-width:1300px; margin:0 auto; padding:0 40px 0 290px; }
-  html[dir="rtl"] .steps-inner{padding:0 290px 0 40px;}
+  .steps-inner{
+    max-width:1300px;
+    margin:0 auto;
+    padding-block:0;
+    padding-inline-start:290px;
+    padding-inline-end:40px;
+  }
   .steps-heading{text-align:center; margin-bottom:36px;}
   .steps-heading .eyebrow{justify-content:center;}
   .steps-row{display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap;}
@@ -324,7 +338,10 @@
     .cards-grid{grid-template-columns:1fr; }
     .feature-grid{grid-template-columns:repeat(2,1fr);}
     .steps-photo{display:none;}
-    .steps-inner{padding-left:40px; padding-right:40px;}
+    .steps-inner{
+      padding-inline-start:40px;
+      padding-inline-end:40px;
+    }
     .experience-section .wrap{grid-template-columns:1fr;}
     .experience-photos{grid-template-columns:1fr 1fr;}
     .footer-top{grid-template-columns:1fr 1fr;}
@@ -357,8 +374,6 @@
   }
 
   /* ---- a11y / SEO additions ---- */
-  img{height:auto;}
-  .menu-item-name{min-width:0; overflow-wrap:anywhere;}
   .moments-note{right:0;}
   html[dir="rtl"] .moments-note{right:auto; left:0;}
   .cat-inner>*,.cta-inner>*,.lieu-split>*,.meet-split>*,.find-wrap>*,.reserve-wrap>*,.moments-wrap>*,.gout-wrap>*,.instant-section>*,.instant-grid>*,.plates-top>*,.cards-grid>*,.split>*,.experience-section .wrap>*,.footer-top>*,.form-row>*,.feature-grid>*,.follow-grid>*{min-width:0;}
@@ -366,19 +381,10 @@
   .skip-link:focus{top:12px;}
   :focus-visible{outline:2px solid #e3a06a; outline-offset:3px;}
   button.burger{background:none; border:0; padding:0; font:inherit;}
-  a.lang-option{display:block;}
   h2.eyebrow{font-family:inherit; line-height:normal;}
   html[dir="rtl"] h2.eyebrow{font-family:'Cairo',sans-serif; font-weight:600;}
-  .hero-bg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;}
-  .hero::before{content:''; position:absolute; inset:0; z-index:1;}
-  .hero > .wrap{position:relative; z-index:2;}
   .map-thumb svg{display:block; width:100%; height:auto;}
   .map-thumb a[aria-hidden]{display:block; opacity:1;}
-  header{position:fixed !important; top:0; left:0; width:100%; z-index:90;}
-  
-
-  .hero{position:relative; min-height:640px; display:flex; align-items:flex-end; padding-top:150px; overflow:hidden;}
-  .hero::before{background:linear-gradient(to bottom, rgba(10,25,28,.35), rgba(10,25,28,.55) 60%, rgba(10,25,28,.15));}
 </style>
 </head>
 <body>
